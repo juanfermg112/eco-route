@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f871703-20f5-48e1-b8db-0e3e0297cc12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ArbolLotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GrafoHospitales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Medicamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NodoLote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Solicitud.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/Solicitud.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Ventana.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/Ventana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solicitud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solicitud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Transferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transferencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ventana.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ventana.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ventana.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;juanfermg112&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/juanfermg112/ProyectoPrograIII.git&quot;,
+    &quot;accountId&quot;: &quot;7c8eab8c-d8f9-488e-90dc-1665d3038836&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3E5wLlBxXVWcYWnlQM1yQazWeaR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Ventana.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VentanaPrincipal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VentanaSafeDose.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/1hjua/IdeaProjects/Eco Route&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f871703-20f5-48e1-b8db-0e3e0297cc12" name="Changes" comment="" />
+      <created>1779481686911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779481686911</updated>
+    </task>
+    <servers />
+  </component>
+</project>
