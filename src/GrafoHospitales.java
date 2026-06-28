@@ -25,16 +25,17 @@ public class GrafoHospitales {
         Integer j = indicePorNombre.get(destino);
         if (i != null && j != null) {
             matrizAdyacencia[i][j] = tiempoMinutos;
-            matrizAdyacencia[j][i] = tiempoMinutos; // Grafo no dirigido (bidireccional)
+            matrizAdyacencia[j][i] = tiempoMinutos;
         }
     }
 
-    public String buscarRutaMasRapida(String nombreOrigen, String nombreDestino) {
+    // NUEVO MÉTODO NUMÉRICO: Sirve para buscar inteligentemente el hospital más cercano
+    public int obtenerTiempoRutaInt(String nombreOrigen, String nombreDestino) {
         Integer origenIdx = indicePorNombre.get(nombreOrigen);
         Integer destinoIdx = indicePorNombre.get(nombreDestino);
 
-        if (origenIdx == null || destinoIdx == null) return "Ruta no mapeada";
-        if (origenIdx.equals(destinoIdx)) return "Mismo lugar (0 min)";
+        if (origenIdx == null || destinoIdx == null) return -1;
+        if (origenIdx.equals(destinoIdx)) return 0;
 
         int[] distancias = new int[numHospitales];
         Arrays.fill(distancias, Integer.MAX_VALUE);
@@ -54,6 +55,11 @@ public class GrafoHospitales {
                 }
             }
         }
-        return (distancias[destinoIdx] == Integer.MAX_VALUE) ? "No existe ruta posible" : distancias[destinoIdx] + " min";
+        return distancias[destinoIdx] == Integer.MAX_VALUE ? -1 : distancias[destinoIdx];
+    }
+
+    public String buscarRutaMasRapida(String nombreOrigen, String nombreDestino) {
+        int tiempo = obtenerTiempoRutaInt(nombreOrigen, nombreDestino);
+        return tiempo == -1 ? "No existe ruta posible" : tiempo + " min";
     }
 }
