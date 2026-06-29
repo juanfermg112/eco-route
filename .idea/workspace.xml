@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f871703-20f5-48e1-b8db-0e3e0297cc12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Eco Route/VentanaCodigo$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eco Route/VentanaCodigo$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eco Route/VentanaCodigo$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eco Route/VentanaCodigo$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eco Route/VentanaCodigo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VentanaCodigo.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VentanaCodigo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/ArbolLotes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/ArbolLotes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/GrafoHospitales.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/GrafoHospitales.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Hospital.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/Hospital.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/LoteInventario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/LoteInventario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Solicitud.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/Solicitud.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Ventana$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Ventana$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Ventana$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Ventana.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArbolLotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArbolLotes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GrafoHospitales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GrafoHospitales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hospital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoteInventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoteInventario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solicitud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solicitud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ventana.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
