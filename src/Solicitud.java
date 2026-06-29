@@ -3,9 +3,9 @@ public class Solicitud implements Comparable<Solicitud> {
     private String nombrePaciente;
     private int edad;
     private String sintomas;
-    private Hospital hospitalSolicitante; // Enlazado directamente al catálogo maestro
+    private Hospital hospitalSolicitante;
     private Medicamento medicamento;
-    private int nivelUrgencia; // 1 (Rojo) a 5 (Azul)
+    private int nivelUrgencia;
     private long timestampLlegada;
 
     public Solicitud(String idSolicitud, String nombrePaciente, int edad, String sintomas, Hospital hospitalSolicitante, Medicamento medicamento, int nivelUrgencia) {
@@ -34,4 +34,10 @@ public class Solicitud implements Comparable<Solicitud> {
     public Hospital getHospitalSolicitante() { return hospitalSolicitante; }
     public Medicamento getMedicamento() { return medicamento; }
     public int getNivelUrgencia() { return nivelUrgencia; }
+
+    // ==========================================
+    // 🔥 NUEVOS GETTERS AGREGADOS PARA CORREGIR EL ERROR
+    // ==========================================
+    public int getEdad() { return edad; }
+    public String getSintomas() { return sintomas; }
 }

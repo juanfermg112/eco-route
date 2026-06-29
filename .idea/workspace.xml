@@ -5,19 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f871703-20f5-48e1-b8db-0e3e0297cc12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArbolLotes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoteInventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medicamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NodoLote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/ArbolLotes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/ArbolLotes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/GrafoHospitales.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/GrafoHospitales.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Hospital.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/Hospital.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/LoteInventario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/LoteInventario.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Solicitud.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/Solicitud.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Ventana.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eco Route/Ventana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Ventana$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Ventana$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Ventana$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eco Route/Ventana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArbolLotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArbolLotes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GrafoHospitales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GrafoHospitales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoteInventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoteInventario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solicitud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solicitud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Transferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transferencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ventana.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ventana.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VentanaCodigo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/juanfermg112/eco-route.git",
-    "accountId": "7c8eab8c-d8f9-488e-90dc-1665d3038836"
+    "accountId": "cc2632b3-d1b2-4608-af2a-34f3c6b15ef6"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -54,22 +57,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Ventana.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VentanaPrincipal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VentanaSafeDose.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/1hjua/IdeaProjects/Eco Route&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ventana.executor": "Run",
+    "Application.VentanaCodigo.executor": "Run",
+    "Application.VentanaPrincipal.executor": "Run",
+    "Application.VentanaSafeDose.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "143",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/1hjua/IdeaProjects/Eco Route",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0f871703-20f5-48e1-b8db-0e3e0297cc12" name="Changes" comment="" />

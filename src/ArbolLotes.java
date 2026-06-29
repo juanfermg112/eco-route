@@ -1,5 +1,3 @@
-import java.util.List;
-
 public class ArbolLotes {
     private NodoLote raiz;
 
@@ -46,7 +44,7 @@ public class ArbolLotes {
         else return buscarRecursivo(actual.derecho, idLoteBuscado);
     }
 
-    public void obtenerHistorialInorden(NodoLote actual, List<NodoLote> lista) {
+    public void obtenerHistorialInorden(NodoLote actual, java.util.List<NodoLote> lista) {
         if (actual != null) {
             obtenerHistorialInorden(actual.izquierdo, lista);
             lista.add(actual);

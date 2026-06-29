@@ -15,6 +15,10 @@ public class GrafoHospitales {
     }
 
     public void agregarHospital(Hospital h) {
+        // VALIDACIÓN: Evitar desbordamiento de capacidad de matriz o duplicación de nombres
+        if (h == null || numHospitales >= matrizAdyacencia.length || indicePorNombre.containsKey(h.getNombre())) {
+            return;
+        }
         nodos.add(h);
         indicePorNombre.put(h.getNombre(), numHospitales);
         numHospitales++;
@@ -29,7 +33,6 @@ public class GrafoHospitales {
         }
     }
 
-    // NUEVO MÉTODO NUMÉRICO: Sirve para buscar inteligentemente el hospital más cercano
     public int obtenerTiempoRutaInt(String nombreOrigen, String nombreDestino) {
         Integer origenIdx = indicePorNombre.get(nombreOrigen);
         Integer destinoIdx = indicePorNombre.get(nombreDestino);

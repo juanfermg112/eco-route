@@ -1,4 +1,3 @@
-// NUEVA CLASE: Representa una caja física de medicamentos en bodega
 public class LoteInventario implements Comparable<LoteInventario> {
     private String idLote;
     private Medicamento medicamento;
@@ -12,7 +11,6 @@ public class LoteInventario implements Comparable<LoteInventario> {
         this.diasParaCaducar = diasParaCaducar;
     }
 
-    // EL ORDENAMIENTO DE LA COLA: Siempre pone arriba el que caduca primero (FEFO)
     @Override
     public int compareTo(LoteInventario otro) {
         return Integer.compare(this.diasParaCaducar, otro.diasParaCaducar);

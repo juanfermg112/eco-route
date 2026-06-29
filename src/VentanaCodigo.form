@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="VentanaCodigo">
+  <grid id="27dc6" binding="principal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="574" height="411"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="fffe9" binding="tblHistorialTraslados">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="ae339" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Triaje Médico"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="160a1" layout-manager="GridBagLayout">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="ab6d1" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="ID SOLICITUD"/>
+                    </properties>
+                  </component>
+                  <component id="379" class="javax.swing.JTextField" binding="txtId">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="3.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="43ed3" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Nombre Paciente"/>
+                    </properties>
+                  </component>
+                  <component id="c5736" class="javax.swing.JTextField" binding="txtNombrePaciente">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="3.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="f8a72" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Medicamento"/>
+                    </properties>
+                  </component>
+                  <component id="c7d96" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Nivel de Urgencia"/>
+                    </properties>
+                  </component>
+                  <component id="49a60" class="javax.swing.JComboBox" binding="cmbGravedad">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="3.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <model>
+                        <item value="1-ROJO |Emergencia Vital (atención inmediata)"/>
+                        <item value="2-AMARILLO|Urgencia Inminente (máx. 30 min)"/>
+                        <item value="3-VERDE |Urgencia moderada (hasta 120 min)"/>
+                        <item value="4-BLANCO |Consulta priorizada"/>
+                        <item value="5-AZUL |Consulta no priorizada"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="73122" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Edad"/>
+                    </properties>
+                  </component>
+                  <component id="f9fa1" class="javax.swing.JSpinner" binding="spnEdad">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="3.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="7f928" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Sintomas"/>
+                    </properties>
+                  </component>
+                  <component id="b7fb7" class="javax.swing.JTextField" binding="txtSintomas">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="3.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="ca483" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Hospital Solicitante"/>
+                    </properties>
+                  </component>
+                  <component id="39e48" class="javax.swing.JComboBox" binding="cmbHospital">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="3.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <model>
+                        <item value="Hospital Baca Ortiz (Pediatría)"/>
+                        <item value="Centro de Salud Quitumbe"/>
+                        <item value="Clinica Pichincha (Convenio)"/>
+                        <item value="Bodega MSP Central Zona 9"/>
+                        <item value="Hospital Pablo Arturo Suárez"/>
+                        <item value="Centro de Salud Calderon"/>
+                        <item value="Hospital Eugenio Espejo"/>
+                        <item value="Centro de Salud Cotocollao"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="4ee57" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="3.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <model>
+                        <item value="Insulina Glargina"/>
+                        <item value="Paracetamol IV"/>
+                        <item value="Omeprazol IV"/>
+                        <item value="Amoxicilina Suspensión"/>
+                        <item value="Salbutamol Inhalador"/>
+                        <item value="Morfina Ampollas"/>
+                        <item value="Vacuna Pfizer Covid 19"/>
+                        <item value="Metformina 500 mg"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="7f237" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Cantidad necesaria"/>
+                    </properties>
+                  </component>
+                  <component id="ce19c" class="javax.swing.JTextField" binding="textCantidad">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="3.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <grid id="48c04" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="eacbb" class="javax.swing.JButton" binding="btnIngresarOrden">
+                        <constraints/>
+                        <properties>
+                          <text value="Ingresar Orden"/>
+                        </properties>
+                      </component>
+                      <component id="c167e" class="javax.swing.JButton" binding="btnAtenderSiguiente">
+                        <constraints/>
+                        <properties>
+                          <text value="Atender Siguiente"/>
+                        </properties>
+                      </component>
+                      <component id="61e93" class="javax.swing.JButton" binding="deshacerLifoButton" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <text value="Deshacer (Lifo)"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="edaf8" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="etched" title="Cola de Triaje - Ordenada por Urgencia"/>
+                <children>
+                  <scrollpane id="99eb3">
+                    <constraints/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="88958" class="javax.swing.JTable" binding="tblTriaje">
+                        <constraints/>
+                        <properties/>
+                      </component>
+                    </children>
+                  </scrollpane>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="c5831" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Control Recall"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="5e0d4" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="893da" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Hospital Origen"/>
+                    </properties>
+                  </component>
+                  <vspacer id="8ed30">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="5c283" class="javax.swing.JComboBox" binding="cmbHospitalOrigen">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <model>
+                        <item value="Hospital Baca Ortiz (Pediatría)"/>
+                        <item value="Centro de Salud Quitumbe"/>
+                        <item value="Clinica Pichincha (Convenio)"/>
+                        <item value="Bodega MSP Central Zona 9"/>
+                        <item value="Hospital Pablo Arturo Suárez"/>
+                        <item value="Centro de Salud Calderon"/>
+                        <item value="Hospital Eugenio Espejo"/>
+                        <item value="Centro de Salud Cotocollao"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="c0995" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Medicamento"/>
+                    </properties>
+                  </component>
+                  <component id="30734" class="javax.swing.JComboBox" binding="cmbMedicamentoRecall">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <model>
+                        <item value="Insulina Glargina"/>
+                        <item value="Paracetamol IV"/>
+                        <item value="Omeprazol IV"/>
+                        <item value="Amoxicilina Suspensión"/>
+                        <item value="Salbutamol Inhalador"/>
+                        <item value="Morfina Ampollas"/>
+                        <item value="Vacuna Pfizer Covid 19"/>
+                        <item value="Metformina 500 mg"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="e0729" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Lote a trasladar"/>
+                    </properties>
+                  </component>
+                  <component id="fc246" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Hospital Destino"/>
+                    </properties>
+                  </component>
+                  <component id="e8639" class="javax.swing.JComboBox" binding="cmbHospitalDestino">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <model>
+                        <item value="Hospital Baca Ortiz (Pediatría)"/>
+                        <item value="Centro de Salud Quitumbe"/>
+                        <item value="Clinica Pichincha (Convenio)"/>
+                        <item value="Bodega MSP Central Zona 9"/>
+                        <item value="Hospital Pablo Arturo Suárez"/>
+                        <item value="Centro de Salud Calderon"/>
+                        <item value="Hospital Eugenio Espejo"/>
+                        <item value="Centro de Salud Cotocollao"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <grid id="75820" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="95c9f" class="javax.swing.JButton" binding="btnTrasladarLote">
+                        <constraints/>
+                        <properties>
+                          <text value="Trasladar Lote"/>
+                        </properties>
+                      </component>
+                      <component id="90210" class="javax.swing.JButton" binding="btnFallaLote">
+                        <constraints/>
+                        <properties>
+                          <text value="Falla Lote"/>
+                        </properties>
+                      </component>
+                      <component id="bb70f" class="javax.swing.JButton" binding="btnVerInventarioLote">
+                        <constraints/>
+                        <properties>
+                          <text value="Ver inventario por Lotes"/>
+                        </properties>
+                      </component>
+                      <component id="221c7" class="javax.swing.JButton" binding="btnAlertaCaducidad">
+                        <constraints/>
+                        <properties>
+                          <text value="Alerta Caducidad"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="8b2a2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="etched" title="Historial de Traslados (BST Inorden)"/>
+                    <children>
+                      <scrollpane id="9a020">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="b8d3f" class="javax.swing.JTable" binding="tblTraslado">
+                            <constraints/>
+                            <properties/>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <component id="54c9b" class="javax.swing.JComboBox" binding="cmbLoteTrasladar">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <model/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="5b585" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Agregar Lotes"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="f8e55" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="88131" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="ID del Lote (ej: LT-HEG-05)"/>
+                    </properties>
+                  </component>
+                  <component id="c2177" class="javax.swing.JTextField" binding="txtIdLotes">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="ac44c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Hospital/Centro receptor:"/>
+                    </properties>
+                  </component>
+                  <component id="991a" class="javax.swing.JComboBox" binding="cmbHospitalReceptor">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <model>
+                        <item value="Hospital Baca Ortiz (Pediatría)"/>
+                        <item value="Centro de Salud Quitumbe"/>
+                        <item value="Clinica Pichincha (Convenio)"/>
+                        <item value="Bodega MSP Central Zona 9"/>
+                        <item value="Hospital Pablo Arturo Suárez"/>
+                        <item value="Centro de Salud Calderon"/>
+                        <item value="Hospital Eugenio Espejo"/>
+                        <item value="Centro de Salud Cotocollao"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="ec818" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Medicamento"/>
+                    </properties>
+                  </component>
+                  <component id="56840" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <model>
+                        <item value="Insulina Glargina"/>
+                        <item value="Paracetamol IV"/>
+                        <item value="Omeprazol IV"/>
+                        <item value="Amoxicilina Suspensión"/>
+                        <item value="Salbutamol Inhalador"/>
+                        <item value="Morfina Ampollas"/>
+                        <item value="Vacuna Pfizer Covid 19"/>
+                        <item value="Metformina 500 mg"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="6bc2d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Cantidad (unidades)"/>
+                    </properties>
+                  </component>
+                  <component id="4f82f" class="javax.swing.JTextField" binding="txtCantidadUnidades">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="29a36" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Días para caducar"/>
+                    </properties>
+                  </component>
+                  <component id="28c65" class="javax.swing.JTextField" binding="txtDiasCaducar">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <grid id="5dd39" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="7d48c" class="javax.swing.JButton" binding="btnRegistrarIngresoLote">
+                        <constraints/>
+                        <properties>
+                          <text value="Registrar Ingreso de Lote"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="e408d" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="etched" title="Inventario Actual por Lotes (FIFO)"/>
+                    <children>
+                      <scrollpane id="6a162" binding="tblInventarioLote">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="e4a17" class="javax.swing.JTable" binding="tblInventariofi">
+                            <constraints/>
+                            <properties/>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
